@@ -1,0 +1,227 @@
+
+
+
+body{
+  padding:0px; 
+  margin:0px;
+  background-color: rgb(248, 246, 244); 
+}
+.container{
+  max-width:1000px; 
+  margin:0 auto;
+}
+
+.container > header{
+     
+  background-image: url('/img/nt\ ha\ dep.jpg'); 
+  background-size: 100%; 
+  height:100px; 
+  padding-top:25%; 
+  
+}
+ 
+
+.container > nav{  
+  line-height:40px; 
+  background-color:rgb(143, 67, 23); 
+  color:white; 
+  text-align:center; 
+  font-variant:small-caps;
+  
+} 
+.container > nav > a{
+    color:white; 
+     text-decoration:underline; 
+      margin:0 10px; 
+      font-size: large;
+     
+} 
+.container > nav > a:hover{
+    color:yellow; 
+    text-decoration:underline; 
+} 
+.leftcolumn { 
+    float: left;  
+     width: 75%;
+}
+.vmenu > rightcolumn{
+
+   float: right; 
+   width:25%;   
+   background-color: #f1b05a; 
+   padding-right: 20px; 
+}
+.images {  
+width: 50%; 
+height: 150px; 
+padding-top: 5px;
+} 
+.card-news {   
+  width:300px; 
+  height: 400px;
+ font-size: 15px;
+  background-color: rgb(238, 169, 78); 
+  padding: 15px;   
+  margin: 20px;   
+  float: left; 
+} 
+.card-news:hover{
+  transform: scale(1.05);
+  box-shadow: gray 10px 10px 6px ;
+}
+.row:after { 
+   content: "";  
+  display: table;  
+  clear: both;
+} 
+.card{  
+  background-color: rgb(232, 159, 241); 
+  padding: 20px;   
+  margin-top: 10px;  
+  text-align: center;  
+}
+.car>img{
+  width: 20%;
+  height: 50px;
+}
+.footer {   
+ padding: 20px;   
+ text-align: center;   
+ background: rgb(48, 145, 24);  
+ margin-top: 10px; 
+} 
+.footer>h3{
+  color: #422908;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.prod>h2{
+  border-radius:10px; 
+  box-shadow:0 0 5px gray ;
+  margin:5px ;
+  padding:5px; 
+  text-align:center ;
+  position:relative;
+  color:rgb(184, 95, 22);
+  background-color: aliceblue;
+  font-size: 50px;
+  
+}
+.prod>image{
+padding: 30px;
+margin: 20px;
+width: 40%;
+}
+
+.prod>image:hover{
+transform: scale(1.05);
+box-shadow: 0 0 10px  #683e06;
+}
+.khach>h2{
+   border-radius: 10px;
+  box-shadow:0 0 10px rgb(245, 71, 48) ;
+  margin:5px ;
+  padding:5px; 
+  text-align:center ;
+  position:relative;
+  color:rgb(40, 226, 56);
+  background-color: rgb(11, 78, 136);
+  font-size: 50px;
+}
+.khach>p{
+ font-size: 20px;
+ font-weight: 100;
+ color: rgb(128, 101, 15);
+}
+*{
+  margin: auto;
+}
+.prod>h3{
+  border-radius: 10px;
+  box-shadow:0 0 10px rgb(245, 71, 48) ;
+  margin:5px ;
+  padding:5px; 
+  text-align:center ;
+  position:relative;
+  color:rgb(40, 226, 56);
+  background-color: rgb(11, 78, 136);
+  font-size: 50px;
+}
+iframe{
+  width: 100%;
+  height: 500px;
+}
+.body{
+  background-image: url("../img/nền\ 1.jpg");
+  
+}
+.form-group{
+  margin: 30px;
+}
+.form-control{
+width:100% ;
+padding:10px ;
+outline:none ;
+border:2px solid gray ;
+border-radius:3px;
+} 
+.form-group > label{
+ font-weight:bold ;
+font-variant:small-caps ;
+padding:10px
+}
+.form-button{
+padding:8px ; 
+outline:none; 
+border:none; 
+border-radius:20px ;
+font-weight:bold; 
+background-color:white; 
+color:orangered ;
+box-shadow:inset 0 0 20px blue ;
+}
+.form-button:hover{
+color:blue ;
+box-shadow:inset 0 0 20px orangered;
+} 
+.table{
+  border-collapse: collapse;
+  width: 50%;
+  font-size: 10px;
+  text-align: center;
+}
+.tr{
+  height: 40px; 
+  width: 20%;
+}
+.xanh{
+  background-color: rgb(160, 95, 10);
+  color: rgb(255, 255, 255);
+  width: 80%;
+}
+.do{
+  width: 10%;
+  font-weight: bold;
+}
+.rong{
+  width: 10%;
+  font-weight: bold;
+}
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+

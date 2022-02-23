@@ -1,0 +1,22 @@
+.td{
+    padding: 50px;
+    max-width: 30px;
+  }
+  td:nth-child(1){
+    width: 20%;
+  }
+  td:nth-child(2){
+    width: 80%;
+  }
+  tr{
+    height: 100px;
+  }
+  img{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+  }
+  h3{
+   color: blue;
+  }
+  
